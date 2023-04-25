@@ -1,1 +1,2 @@
-useState is 
+Now we just need to create the object for storing the user information for that we'll be using the const [users, setUsers] & with the help of useState([]) hook. 
+useEffect hook is used to load the information every time when the page loads.

@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 export default function Home() {
 
     const[users, setusers]=useState([])
 
-    
+   useEffect(()=>{
+    console.log("Code with Kishore.");
+   }) 
 
     return (
         <div className="container">
