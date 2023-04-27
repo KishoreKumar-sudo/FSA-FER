@@ -1,5 +1,5 @@
 Now we just need to create the object for storing the user information for that we'll be using the const [users, setUsers] & with the help of useState([]) hook.
 
-useEffect hook is used to load the information every time when the page loads.
+useEffect hook is used to load the information every time when the page loads & to avoid keep on rendering we use dependency array[]. 
 
 how to connect FE-React with BE-SB? enter port number(url) in user-controller-java file inside @CrossOrigin(Annotation) "https://localhost:3000" & alternatively connect BE-SB with Mysql using axios inside the get url as "https://localhost:8080/user"
