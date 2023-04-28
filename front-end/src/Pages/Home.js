@@ -30,7 +30,7 @@ export default function Home() {
                     </thead>
                     <tbody>
                         {
-
+                            users.map((users,index))
                         }
 
                         <tr>
